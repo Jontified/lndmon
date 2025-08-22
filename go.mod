@@ -1,5 +1,7 @@
 module github.com/lightninglabs/lndmon
 
+replace github.com/lightninglabs/lndclient => github.com/Jontified/lndclient v0.0.0-20250821150401-cbfd3b66dd2e
+
 require (
 	github.com/btcsuite/btcd/btcutil v1.1.5
 	github.com/btcsuite/btclog/v2 v2.0.1-0.20250110154127-3ae4bf1cb318
